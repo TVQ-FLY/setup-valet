@@ -1,0 +1,13 @@
+1. Run powershell as Administrator
+
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1’))
+
+2. Chạy xong tắt đi rồi mở lại powershell as administrator
+choco install php
+
+3. Cài composer: https://getcomposer.org/Composer-Setup.exe
+
+4. Cài valet 
+composer global require cretueusebiu/valet-windows
+
+valet install
